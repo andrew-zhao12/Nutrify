@@ -1,5 +1,4 @@
-# Nutrify App : course-project-group-94
-Nutrify App : Group 94
+# Nutrify App 
 
 Functionality:
 The Nutrify app allows a user to input scanned labels to add to a list of purchases for a daily diet. The app uses a database to keep track of:
@@ -23,7 +22,7 @@ Hence…
 
 Backend Component:
 Our Backend component will have a database that stores user input of images and nutritional information. 
-We will primarily be using MySQL and SQLite for the text data storage like nutritional information and preferences for daily consumption.
+We will primarily be using a MySQL database for the text data storage like nutritional information and preferences for daily consumption.
 We are going to use OCR (Optical Character Recognition) from Pytesseract to convert an image to text by scanning the picture uploaded by the user.
 The users can also interact with stored nutritional information to see if it is an appropriate food based on the user’s diet preferences. 
 
