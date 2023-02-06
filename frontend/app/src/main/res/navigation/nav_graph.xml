@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.cs222.nutrify.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/successfulLoginAction"
+            app:destination="@id/nutritionInputFragment" />
+        <action
+            android:id="@+id/succesfulRegisterAction"
+            app:destination="@id/userPreferencesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nutritionInputFragment"
+        android:name="com.cs222.nutrify.ui.NutritionInputFragment"
+        android:label="NutritionInputFragment">
+        <action
+            android:id="@+id/updateUserPreferencesAction"
+            app:destination="@id/userPreferencesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userPreferencesFragment"
+        android:name="com.cs222.nutrify.ui.UserPreferencesFragment"
+        android:label="UserPreferencesFragment" >
+        <action
+            android:id="@+id/saveUserPreferencesAction"
+            app:destination="@id/nutritionInputFragment" />
+    </fragment>
+</navigation>

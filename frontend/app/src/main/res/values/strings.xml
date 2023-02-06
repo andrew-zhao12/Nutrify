@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Nutrify</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    
+    <!-- Strings related to the food information that the user will input -->
+    <string name="prompt_calories">Calories</string>
+    <string name="prompt_fat">Fat</string>
+    <string name="prompt_sodium">Sodium</string>
+    <string name="prompt_carbs">Carbs</string>
+    <string name="prompt_sugar">Sugar</string>
+    <string name="prompt_protein">Protein</string>
+    <string name="prompt_calcium">Calcium</string>
+    <string name="prompt_iron">Iron</string>
+    <string name="prompt_potassium">Potassium</string>
+    <string name="submit_nutrition_info">Submit</string>
+    <string name="add_food_information">Add Food Item</string>
+    <string name="undo_previous_addition">Undo Previous Food Item</string>
+    <string name="no_previous_items_exist">No previous food item exists</string>
+    <string name="previous_item_exists">Previous information restored for updating</string>
+    <string name="unfilled_text_boxes_add">Please fill out all text boxes</string>
+    <string name="filled_text_boxes_add">Food information received</string>
+    
+    <!-- Strings related to the preferences of the user-->
+    <string name="instructions_on_user_preferences">Please enter the amounts for each nutrition that you want your diet to stay under</string>
+    <string name="user_age">Age</string>
+    <string name="user_fat_pref">Fat</string>
+    <string name="user_carbs_pref">Carbs</string>
+    <string name="user_protein_pref">Protein</string>
+    <string name="user_calories_pref">Calories</string>
+    <string name="user_sodium_pref">Sodium</string>
+    <string name="user_iron_pref">Iron</string>
+    <string name="save_user_pref">Save</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="button_to_user_prefs_from_input">My Preferences</string>
+</resources>
